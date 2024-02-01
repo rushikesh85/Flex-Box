@@ -1,0 +1,74 @@
+body {
+    background-image: linear-gradient(to right, #343ec8, #5e3cc0, #793ab9, #8c3ab1, #9c3ca9);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 60px 90px 50px;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+.navbar {
+    padding-right: 150px;
+}
+
+.navbar a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(73, 194, 132);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin: 9px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragraph {
+    max-width: 50%;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 80px;
+    padding-left: 150px;
+}
+
+.paragraph1 {
+    max-width: 40%;
+    color: rgba(237, 236, 210, 0.553);
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 120px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 35px;
+    border-left: 0.5px solid rgba(255, 255, 255, 0.313);
+}
+
+#btn {
+    padding-top: 30px
+}
+
+#btn a {
+    padding: 17px 50px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: rgb(88, 193, 138);
+    border-radius: 25px;
+    color: rgba(255, 255, 255, 0.97);
+    text-decoration: none;
+    font-weight: bold;
+
+}

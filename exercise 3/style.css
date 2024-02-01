@@ -1,0 +1,39 @@
+.image,
+.image2,
+.image3 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image img {
+    display: flex;
+    flex-direction: row;
+    margin: 18px;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 8px #514d4d;
+}
+
+.image2 img {
+    display: flex;
+    flex-direction: row;
+    margin: 18px;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 8px #514d4d;
+
+}
+
+.image3 img {
+    display: flex;
+    flex-direction: row;
+    margin: 18px;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 8px #514d4d;
+
+}
